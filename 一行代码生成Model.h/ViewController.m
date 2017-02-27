@@ -16,6 +16,8 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    //使用前请把xcode8自动打印的log关掉比较 打印台比较清爽
+
     [super viewDidLoad];
    NSDictionary *dic0 = @{@"thumbnail_pic":@"http://ww4.sinaimg.cn/thumbnail/80292f4btw1eqi01myf23j20br08ogm0.jpg",
                           @"name":@"对象中有个数组数组里面是对象"};
